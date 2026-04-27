@@ -21,7 +21,7 @@ This repo is made specifically for me, in case I needed a reinstall, but based o
 6.  **Initial Install:** Launch the game through Steam and install the game launcher. Best to use the default download location of `C:\NIKKE`. Wait for the game to fully finish downloading, and click `X` once finished. Clicking `Launch` now will have no effect, but you will have to manually close it on Steam.
 7.  **Locate the files:** Go to `~/.steam/steam/steamapps/compatdata/`, sort by date, and open the most recent folder (e.g., `3788235738`).
 8.  **Copy the Launcher's file path:** If you set everything to default, your path should look something like this: `pfx/drive_c/NIKKE/Launcher/nikke_launcher.exe`. Once you find the `.exe`, right-click and copy its path.
-9.  **Add the launcher:** Just like before, add the `nikke_launcher.exe` as a **Non-Steam Game**. Click on `Properties` > `Compatibility` and enable it. 
+9.  **Add the launcher:** Just like before, add the `nikke_launcher.exe` as a **Non-Steam Game**. Click on `Properties` > `Compatibility` and enable it. Select `DW-Proton Latest`. Click OK.
 10. **Run the launcher:** Now that's done, you can now simply play the game. Based on my testing, the first launch took a while. Sometimes you have to hit `Play` and `Cancel` a few times. After that, it shouldn't have the issue anymore.
 11. **Enjoy the game!:** Once the launcher finally opens, select **"Other Logins"** and sign in as you would on Windows. You can install the game normally.
 
