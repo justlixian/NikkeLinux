@@ -14,14 +14,14 @@ This repo is made specifically for me, in case I needed a reinstall, but based o
 ## Installation
 
 1.  **Install Steam and ProtonPlus:** See **Requirements** for explanations. 
-2.  **Download MiniLoader:** Get `NikkeMiniloader0.0.6.143.exe` from this repo, the [Official website](https://nikke-en.com/NikkeMiniloader0.0.6.143.exe), or [Archive.org](https://web.archive.org/web/20230215142046/https://nikke-en.com/NikkeMiniloader0.0.6.143.exe).
-3.  **ProtonPlus Setup:** With **ProtonPlus** installed, download both `Proton-GE Latest` and `DW-Proton Latest`. It's normal if it takes a while. Restart Steam; we'll need them for step 4.
+2.  **Download MiniLoader:** Get `NikkeMiniloader0.0.6.143.exe` from this repo, the [Official website](https://nikke-en.com/download.html), or [Archive.org](https://web.archive.org/web/20230215142046/https://nikke-en.com/NikkeMiniloader0.0.6.143.exe).
+3.  **ProtonPlus Setup:** With **ProtonPlus** installed, download `DW-Proton Latest`. It's normal if it takes a while. Restart Steam; we'll need them for step 4.
 4.  **Move the miniloader:** After you have downloaded the file, move it to your desired location. It can be anywhere, but if you want to move it later on, you will have to update it manually on Steam.
 5.  **Add miniloader to Steam:** Add `NikkeMiniloader0.0.6.143.exe` as a **Non-Steam Game**. Click on `Properties` > `Compatibility` and enable it. Select `DW-Proton Latest`. Click OK.
 6.  **Initial Install:** Launch the game through Steam and install the game launcher. Best to use the default download location of `C:\NIKKE`. Wait for the game to fully finish downloading, and click `X` once finished. Clicking `Launch` now will have no effect, but you will have to manually close it on Steam.
 7.  **Locate the files:** Go to `~/.steam/steam/steamapps/compatdata/`, sort by date, and open the most recent folder (e.g., `3788235738`).
 8.  **Copy the Launcher's file path:** If you set everything to default, your path should look something like this: `pfx/drive_c/NIKKE/Launcher/nikke_launcher.exe`. Once you find the `.exe`, right-click and copy its path.
-9.  **Add the launcher:** Just like before, add the `nikke_launcher.exe` as a **Non-Steam Game**. Click on `Properties` > `Compatibility` and enable it. But this time, we'll use `Proton-GE Latest` instead. 
+9.  **Add the launcher:** Just like before, add the `nikke_launcher.exe` as a **Non-Steam Game**. Click on `Properties` > `Compatibility` and enable it. 
 10. **Run the launcher:** Now that's done, you can now simply play the game. Based on my testing, the first launch took a while. Sometimes you have to hit `Play` and `Cancel` a few times. After that, it shouldn't have the issue anymore.
 11. **Enjoy the game!:** Once the launcher finally opens, select **"Other Logins"** and sign in as you would on Windows. You can install the game normally.
 
@@ -40,6 +40,14 @@ As this is more of a workaround than anything else, there will be some quirks.
 1. **Double overlay:** Because of this game's nature of having both the game and the launcher, the launcher will have an overlay of its shape under the game. You can simply close it; it will not affect the game.
 2. **You will be logged out:** Every time you launch the game, you will have to login back to the launcher. I haven't found a workaround for this yet.
 3. **The game will remain running:** Due to the anti-cheat's nature, the game will constantly be running in the background unless you manually press `Exit` on your system tray or `Quit` on Steam.
+
+---
+
+## How to Update
+1. **Update via the launcher:** If an update update is available in the game, you must first download it from the `Nikke_launcher.exe`. Then, once it's finished, simply exit. Pressing launch will not do anything.
+2. **Update via the miniloader:** Then, once that is finished, open the miniloader, and update there too. Once it is finished, the game should launch normally.
+
+I have not tested if you can just simply update via the miniloader, this is just what works for me.
 
 ---
 
